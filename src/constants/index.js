@@ -1,5 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
+import project3 from "../assets/projects/project-3.jpg";
 
 
 export const HERO_CONTENT = `Software engineer with a background in data analysis, web development, and generative AI.`;
@@ -11,15 +12,14 @@ export const EXPERIENCES = [
     year: "June 2024 - Present",
     role: "Data Science Intern",
     company: "Ernst and Young Parthenon",
-    description: `Advised DKSH Thailand on strategies in Asia Pacific region’s $100B pharmaceutical markets. Applied data cleaning techniques on World Health Organization datasets and improving data accuracy. Utilized pandas and numpy to visualize drug market shares, increasing market revenue by 6.2% across 15+
-therapeutic areas. Conducted linear regression to forecast market growth for top pharmaceutical companies and drugs in APAC. Transformed datasets into recommendations for DKSH leading to a 17.8% increase in operational efficiency. Developed application to identify 100+ top pharma companies, influencing $15.2B in investment decisions.`,
+    description: `Developed data analytics application for DKSH in strategizing across Asia Pacific’s $100B pharmaceutical markets. Engineered data-cleaning algorithms, streamlining World Health Organization dataset processing, improving data accuracy by 23%. Built automated visualizations with pandas, highlighting drug market shares and revenue growth opportunities. Created a recommendation engine that transformed raw datasets into actionable insights, leading to a 17.8% boost in operational efficiency..`,
     technologies: ["Python", "pandas", "numpy", "think-cell"],
   },
   {
     year: "April 2024 - June 2024",
     role: "Software Engineer Intern",
     company: "Evitado Technologies",
-    description: `Developed new features for the Rosbag Interface, enabling advanced querying and filtering of ROS data including IMU and LiDAR data. Utilized Python, SQLite, and ROS libraries to build a dynamic data synchronization and preprocessing pipeline, reducing data processing latency by 30%, thus enabling real-time response in safety-critical scenarios. Collaborated on analyzing high-fidelity sensor data from a rotating LiDAR scanner system, contributing to a 12.8% improvement in the accuracy of aircraft taxiing visualization.`,
+    description: `Developed new features for the Rosbag Interface, enabling advanced querying and filtering of rosbag data. Utilized Python, SQLite, and ROS libraries to build a dynamic data synchronization and preprocessing pipeline, reducing data processing latency by 30%, thus enabling real-time response in safety-critical scenarios. Collaborated on analyzing high-fidelity sensor data from a rotating LiDAR scanner system, contributing to a 12.8% improvement in the accuracy of aircraft taxiing visualization.`,
     technologies: ["Python", "SQLite", "ROS"],
   },
   {
@@ -33,8 +33,8 @@ therapeutic areas. Conducted linear regression to forecast market growth for top
     year: "February 2024 - Present",
     role: "Industry Developer",
     company: "Web Development at Berkeley",
-    description: `UC Berkeley’s web development club that partners with high-growth startups and clubs to take on full-stack projects.`,
-    technologies: ["React", "NodeJS", "Express.js", "MongoDB"],
+    description: `Developed full-stack main website for Web Development at Berkeley in React, NextJS, TypeScript, and Tailwind CSS. Implemented routes for dynamic page navigation and managed server-side rendering with Node.js, and Express.js. Integrated MongoDB for scalable data storage with RESTful API CRUD operations. Utilized React context for global state management.`,
+    technologies: ["React", "NodeJS", "Express.js", "MongoDB", "Airtable Web API"],
   },
 ];
 
@@ -48,12 +48,18 @@ export const PROJECTS = [
     technologies: ["Python", "OpenAI GPT-4 API", "InterPro API", "ESM2", "Biopython"],
   },
   {
-    title: "Web Development at Berkeley Club Website",
-    image: project2,
-    link: "https://www.webatberkeley.org/",
+    title: "Posto Social",
+    image: project3,    
     description:
-      "Developed full-stack main website for Web Development at Berkeley. Implemented routes to enable dynamic page navigation. Integrated scalable data storage with RESTful API CRUD operations.",
-    technologies: ["React", "NextJS", "Express.js", "Airtable Web API"],
+      "Developed full-stack and cross-platform social media app tested and used by hundreds of UC Berkeley students. Worked on frontend development for platform regulation.",
+    technologies: ["Dart", "Flutter", "TypeScript", "Firebase", "Node.js", "ExpressJS"],
+  },
+  {
+    title: "This Website!",
+    image: project2,    
+    description:
+      "Developed full-stack personal portfolio website. Implemented dynamic routes and component based architecture. Optimized website performance with server-side rendering and lazy loading.",
+    technologies: ["React", "NextJS", "Express.js, Tailwind CSS"],
   },
 ];
 
